@@ -1,0 +1,203 @@
+.navbar-brand>img{
+    height: 40px;
+}
+.btn-ungu {
+    background-color: #923393;
+    color: #fff;
+    font-weight: bold;
+}
+.yellow {
+    background-color: #F89C1B;
+}
+
+.landing {
+    background-image: url('./images/landing-page.jpg');
+    min-height: 960px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.landing2{
+    width: 100%;
+    padding-top: 70px;
+  
+}
+
+.landing2 > .container h1 {
+    padding-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: right;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: #923393;
+}
+h5{
+    text-align: right;
+    color: #923393;
+    line-height: 2.5;
+}
+.gambar3{
+    height: 50px;
+}
+.gambar2{
+    padding-left: 70%;
+}
+.rectangle{position: absolute;
+    top: 33.5%;
+    transform: translate(-50%,-50%);
+    width: 3000px;
+    height: 300px;
+    background-color: white;
+}
+.rectangle p {
+    padding-top: 30%; 
+    text-align: center; 
+    font-size: 40px; 
+    color: #923393; 
+}
+.sub-header{ 
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.sub-header > .container  h1{
+color: #923393;
+}
+.sub-header > .container p{
+    text-align: center;
+    color: #923393;
+}
+.body-tentang{
+    width: 100%;
+    padding-top: 40px;
+    background: #923393;
+    color: white;
+}
+
+.foto-kami {
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+
+.tulisan-kami{
+    vertical-align: middle;
+}
+
+/* .body-tentang > .container > .row > .col-md-5 > img{
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* Featurettes
+------------------------- */
+
+.featurette{
+    background-color: #923393;
+    color: #fff;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+    letter-spacing: -.05rem;
+}
+.teks{
+padding-left: 30px;
+text-align: center;
+padding-top: 250px;
+}
+
+.blue-container{ 
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    background-color: #923393;
+    color: #fff;
+}
+
+.blue-container h1 {
+    color: #fff;
+    font-size: 65px;
+    text-align: left;
+}
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 250px;
+}
+
+.card-text{
+    color: #923393;
+}
+
+.yellow-container{ 
+    width: 100%;
+    background-color: #F89C1B;
+    min-height: 800px ;
+    color: #fff;
+}
+
+.yellow-container h1 {
+    color: #fff;
+    font-size: 65px;
+}
+h5{
+    text-align: center;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
